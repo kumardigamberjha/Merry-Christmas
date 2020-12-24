@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas</title>
+
+    <style>
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("red.jpg");
+            background-size: 100% 200vh;
+            background-repeat: no-repeat;
+        }
+        .block{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .block #title {
+            color: pink;
+            font-size: 3rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .block img{
+            width: 100px;
+            height: 100px;
+            margin: 0 30px;
+        }
+
+        #title:hover {
+            color: rgb(221, 20, 20);
+        }
+
+        #content {
+            color: pink;
+            font-size: 1.5rem;
+            font-family: cursive;
+            width: 50%;
+            margin: 3.5rem 1.5rem;
+        }
+
+        #content strong {
+            color: cyan;
+        }
+
+        #content strong:hover {
+            color: pink;
+        }
+
+        #from {
+            color: pink;
+            font-size: 1.3rem;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-top: 4rem;
+        }
+
+        #from:hover {
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="block">
+        <img src="santa.png" alt="">
+        <h1 id="title">Merry Christmas</h1>
+    </div>
+
+        <p id="content">I wish happiness surrounds you all around on this happy occasion. I hope you’ll have a great
+            time with your friends and family! <br><br><strong>Merry Christmas!</strong> And best wishes for a
+            healthy, happy, and peaceful New Year.</p>
+    <p id="from">Love from the Digamber</p>
+</body>
+
+</html>
